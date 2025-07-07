@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Global Colors */
+    --global-1: #898888;
+    --global-2: #aaaaaa;
+    --global-3: #e4e4e4;
+    --global-4: #f5f5f5;
+    --global-5: #ffffff;
+
+    /* Header Colors */
+    --header-1: #ffffff99;
+
+    /* Button Colors */
+    --button-1: #939393;
+
+    /* Footer Colors */
+    --footer-1: #f5f5f57f;
+    --footer-2: #ffffff7f;
+  }
+}
+
+@layer utilities {
+  /* Global */
+  .text-global-1 {
+    color: var(--global-1);
+  }
+  .text-global-2 {
+    color: var(--global-2);
+  }
+  .text-global-3 {
+    color: var(--global-3);
+  }
+  .text-global-4 {
+    color: var(--global-4);
+  }
+  .text-global-5 {
+    color: var(--global-5);
+  }
+
+  /* Header */
+  .text-header-1 {
+    color: var(--header-1);
+  }
+
+  /* Button */
+  .bg-button-1 {
+    background-color: var(--button-1);
+  }
+
+  /* Footer */
+  .text-footer-1 {
+    color: var(--footer-1);
+  }
+  .text-footer-2 {
+    color: var(--footer-2);
+  }
+}
+

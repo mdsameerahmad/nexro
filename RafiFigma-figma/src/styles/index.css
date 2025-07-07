@@ -1,0 +1,29 @@
+@import './tailwind.css';
+@import url('https://fonts.googleapis.com/css2?family=Satoshi:wght@400;500;700&family=Inder:wght@400&family=Manrope:wght@300;400;500&family=Sarpanch:wght@700&family=Sansita:wght@700&family=Scada:wght@400&display=swap');
+
+body {
+  font-family: 'Satoshi','Lucida Bright', 'Inder', 'Manrope', 'Sarpanch', 'Sansita', 'Scada', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Optional: Improve text rendering for animated elements */
+.text-animate {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}

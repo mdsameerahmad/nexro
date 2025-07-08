@@ -6,12 +6,12 @@
   "engines": {
     "node": "18.x"
   },
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "start": "vite preview",
-  "postinstall": "npm run build"
-},
+  "scripts": {
+    "dev": "vite",
+    "start": "vite preview",
+    "build": "vite build",
+    "format": "prettier --write \"src/**/*.{js,jsx,css,md,json}\""
+  },
   "dependencies": {
     "@dhiwise/component-tagger": "^1.0.9",
     "@tailwindcss/typography": "^0.5.16",

@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import Typical from 'react-typical';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './Footer.css'; // optional if you want to move custom CSS there

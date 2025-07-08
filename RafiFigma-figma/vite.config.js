@@ -1,12 +1,10 @@
-// vite.config.js
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
 import tagger from "@dhiwise/component-tagger";
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(),tagger()],
+  plugins: [react(), tagger()],
   build: {
     outDir: "build",
   },
@@ -21,9 +19,15 @@ export default defineConfig({
     },
   },
   server: {
-    port: "4028",
-    host: "0.0.0.0",
+    port: 4028,
+    host: '0.0.0.0',
     strictPort: true,
-    allowedHosts: ['.amazonaws.com', '.builtwithrocket.new', 'nexro-production.up.railway.app','www.nexromedia.com','nexromedia.com','all']
-  }
+    allowedHosts: 'all',
+  },
+  preview: {
+    port: 4173,
+    host: '0.0.0.0',
+    strictPort: true,
+    allowedHosts: 'all', // ✅ this is what Railway needs
+  },
 });

@@ -1,7 +1,12 @@
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import path from 'path'
+import tagger from '@dhiwise/component-tagger'
+
 export default defineConfig({
   plugins: [react(), tagger()],
   build: {
-    outDir: "build",
+    outDir: 'build'
   },
   resolve: {
     alias: {
@@ -10,13 +15,13 @@ export default defineConfig({
       '@pages': path.resolve('./src/pages'),
       '@assets': path.resolve('./src/assets'),
       '@constants': path.resolve('./src/constants'),
-      '@styles': path.resolve('./src/styles'),
-    },
+      '@styles': path.resolve('./src/styles')
+    }
   },
   server: {
     port: 4028,
-    host: "0.0.0.0",
-    strictPort: true,
+    host: '0.0.0.0',
+    strictPort: true
   },
   preview: {
     port: 4173,
@@ -28,4 +33,4 @@ export default defineConfig({
       'nexromedia.com'
     ]
   }
-});
+})

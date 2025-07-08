@@ -24,6 +24,6 @@ export default defineConfig({
     port: "4028",
     host: "0.0.0.0",
     strictPort: true,
-    allowedHosts: ['.amazonaws.com', '.builtwithrocket.new', 'nexro-production.up.railway.app','all']
+    allowedHosts: ['.amazonaws.com', '.builtwithrocket.new', 'nexro-production.up.railway.app','www.nexromedia.com','nexromedia.com','all']
   }
 });

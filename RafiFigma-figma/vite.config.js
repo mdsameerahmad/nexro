@@ -1,8 +1,3 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-import path from 'path';
-import tagger from "@dhiwise/component-tagger";
-
 export default defineConfig({
   plugins: [react(), tagger()],
   build: {
@@ -22,15 +17,10 @@ export default defineConfig({
     port: 4028,
     host: "0.0.0.0",
     strictPort: true,
-    allowedHosts: [
-      'nexro-production.up.railway.app',
-      'www.nexromedia.com',
-      'nexromedia.com'
-    ]
   },
   preview: {
     port: 4173,
-    host: "0.0.0.0",
+    host: '0.0.0.0',
     strictPort: true,
     allowedHosts: [
       'nexro-production.up.railway.app',

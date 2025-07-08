@@ -304,7 +304,7 @@ const ServicePage = () => {
 
       {/* Websites & Digital Platforms Section */}
       <motion.div
-        className="flex flex-col lg:flex-row items-center px-4 sm:px-6 md:px-8 lg:px-[54px] py-16 sm:py-20 md:py-[100px] lg:py-[155px] gap-8 sm:gap-12 md:gap-16 lg:gap-[69px] bg-white"
+        className="flex flex-col lg:flex-row items-center px-4 sm:px-6 md:px-8 lg:px-[54px] py-16 sm:py-20 md:py-[100px] lg:py-[155px] gap-8 sm:gap-12 md:gap-16 lg:gap-[69px] bg-[#F3F3F0]"
         initial="hidden"
         whileInView="visible"
         viewport={{
@@ -315,7 +315,7 @@ const ServicePage = () => {
         variants={staggerContainer}
       >
         <motion.div
-          className="w-full lg:w-[553px] h-[300px] sm:h-[400px] md:h-[500px] lg:h-[803px] order-2 lg:order-1"
+          className="w-full  lg:w-[553px] h-[300px] sm:h-[400px] md:h-[500px] lg:h-[650px] order-2 lg:order-1"
           variants={fadeInLeft}
           whileHover={scaleOnHover}
         >
@@ -338,14 +338,14 @@ const ServicePage = () => {
           variants={fadeInRight}
         >
           <motion.h3
-            className="text-2xl sm:text-3xl md:text-[34px] font-semibold leading-[1.3] md:leading-[47px] text-dark mb-6 sm:mb-8 md:mb-12 lg:mb-[77px] font-manrope"
+            className="text-2xl sm:text-3xl md:text-[34px] font-semibold leading-[1.3] md:leading-[47px] text-dark mb-6 sm:mb-8 md:mb-12 lg:mb-[55px] font-manrope"
             variants={fadeInUp}
           >
             Websites & Digital Platforms
           </motion.h3>
 
           <motion.p
-            className="text-base sm:text-lg md:text-[20px] font-light leading-[1.5] md:leading-[28px] text-dark mb-8 sm:mb-12 md:mb-16 lg:mb-[114px] font-manrope"
+            className="text-base sm:text-lg md:text-[20px] font-light leading-[1.5] md:leading-[28px] text-dark mb-8 sm:mb-12 md:mb-16 lg:mb-[65px] font-manrope"
             variants={fadeInUp}
           >
             We design digital platforms to empower users and your brand's tribe. This deep
@@ -411,7 +411,7 @@ const ServicePage = () => {
 
       {/* Digital Marketing Section */}
       <motion.div
-        className="flex flex-col lg:flex-row items-center px-4 sm:px-6 md:px-8 lg:px-[77px] py-16 sm:py-20 md:py-[100px] lg:py-[155px] gap-8 sm:gap-12 md:gap-16 lg:gap-[40px] bg-white"
+        className="flex flex-col lg:flex-row items-center px-4 sm:px-6 md:px-8 lg:px-[77px] py-16 sm:py-20 md:py-[100px] lg:py-[155px] gap-8 sm:gap-12 md:gap-16 lg:gap-[40px] bg-[#F3F3F0]"
         initial="hidden"
         whileInView="visible"
         viewport={{
@@ -426,14 +426,14 @@ const ServicePage = () => {
           variants={fadeInLeft}
         >
           <motion.h3
-            className="text-2xl sm:text-3xl md:text-[34px] font-semibold leading-[1.3] md:leading-[47px] text-dark mb-6 sm:mb-8 md:mb-12 lg:mb-[65px] font-manrope"
+            className="text-2xl sm:text-3xl md:text-[34px] font-semibold leading-[1.3] md:leading-[47px] text-dark mb-6 sm:mb-8 md:mb-12 lg:mb-[40px] font-manrope"
             variants={fadeInUp}
           >
             Digital Marketing
           </motion.h3>
 
           <motion.p
-            className="text-base sm:text-lg md:text-[20px] font-light leading-[1.5] md:leading-[28px] text-dark mb-8 sm:mb-12 md:mb-16 lg:mb-[180px] font-manrope"
+            className="text-base sm:text-lg md:text-[20px] font-light leading-[1.5] md:leading-[28px] text-dark mb-8 sm:mb-12 md:mb-16 lg:mb-[50px] font-manrope"
             variants={fadeInUp}
           >
             In the new digital era, users are in control of content and community, and experience
@@ -444,7 +444,7 @@ const ServicePage = () => {
           </motion.p>
 
           <motion.div
-            className="flex flex-col sm:flex-row justify-between gap-8 sm:gap-0 mb-8 sm:mb-12 md:mb-16 lg:mb-[179px]"
+            className="flex flex-col sm:flex-row justify-between gap-8 sm:gap-0 mb-8 sm:mb-12 md:mb-16 lg:mb-[55px]"
             variants={staggerContainer}
           >
             <motion.div
@@ -522,7 +522,7 @@ const ServicePage = () => {
         </motion.div>
 
         <motion.div
-          className="w-full lg:w-[553px] h-[300px] sm:h-[400px] md:h-[500px] lg:h-[803px] order-1 lg:order-2"
+          className="w-full lg:w-[553px] h-[300px] sm:h-[400px] md:h-[500px] lg:h-[650px] order-1 lg:order-2"
           variants={fadeInRight}
           whileHover={scaleOnHover}
         >
@@ -543,7 +543,7 @@ const ServicePage = () => {
 
       {/* Performance Marketing Section */}
       <motion.div
-        className="flex flex-col lg:flex-row items-center px-4 sm:px-6 md:px-8 lg:px-[66px] py-16 sm:py-20 md:py-[100px] lg:py-[155px] gap-8 sm:gap-12 md:gap-16 lg:gap-[67px] bg-white"
+        className="flex flex-col lg:flex-row items-center px-4 sm:px-6 md:px-8 lg:px-[66px] py-16 sm:py-20 md:py-[100px] lg:py-[155px] gap-8 sm:gap-12 md:gap-16 lg:gap-[67px] bg-[#F3F3F0]"
         initial="hidden"
         whileInView="visible"
         viewport={{
@@ -554,7 +554,7 @@ const ServicePage = () => {
         variants={staggerContainer}
       >
         <motion.div
-          className="w-full lg:w-[553px] h-[300px] sm:h-[400px] md:h-[500px] lg:h-[803px] order-2 lg:order-1"
+          className="w-full lg:w-[553px] h-[300px] sm:h-[400px] md:h-[500px] lg:h-[650px] order-2 lg:order-1"
           variants={fadeInLeft}
           whileHover={scaleOnHover}
         >
@@ -577,14 +577,14 @@ const ServicePage = () => {
           variants={fadeInRight}
         >
           <motion.h3
-            className="text-2xl sm:text-3xl md:text-[34px] font-semibold leading-[1.3] md:leading-[47px] text-dark mb-6 sm:mb-8 md:mb-12 lg:mb-[77px] font-manrope"
+            className="text-2xl sm:text-3xl md:text-[34px] font-semibold leading-[1.3] md:leading-[47px] text-dark mb-6 sm:mb-8 md:mb-12 lg:mb-[40px] font-manrope"
             variants={fadeInUp}
           >
             Performance Marketing
           </motion.h3>
 
           <motion.p
-            className="text-base sm:text-lg md:text-[20px] font-light leading-[1.5] md:leading-[28px] text-dark mb-8 sm:mb-12 md:mb-16 lg:mb-[123px] font-manrope"
+            className="text-base sm:text-lg md:text-[20px] font-light leading-[1.5] md:leading-[28px] text-dark mb-8 sm:mb-12 md:mb-16 lg:mb-[50px] font-manrope"
             variants={fadeInUp}
           >
             With a keen understanding of what is happening in the digital landscape, we leverage the
@@ -593,7 +593,7 @@ const ServicePage = () => {
           </motion.p>
 
           <motion.div
-            className="flex flex-col sm:flex-row justify-between gap-8 sm:gap-0 mb-8 sm:mb-12 md:mb-16 lg:mb-[197px]"
+            className="flex flex-col sm:flex-row justify-between gap-8 sm:gap-0 mb-8 sm:mb-12 md:mb-16 lg:mb-[50px]"
             variants={staggerContainer}
           >
             <motion.div
@@ -668,9 +668,9 @@ const ServicePage = () => {
           </motion.div>
         </motion.div>
       </motion.div>
-
+{/* ZOMATO SECTION */}
       <motion.div
-        className="flex flex-col lg:flex-row items-center px-4 sm:px-6 md:px-8 lg:px-[77px] py-16 sm:py-20 md:py-[100px] lg:py-[155px] gap-8 sm:gap-12 md:gap-16 lg:gap-[40px] bg-white"
+        className="flex flex-col lg:flex-row items-center px-4 sm:px-6 md:px-8 lg:px-[77px] py-16 sm:py-20 md:py-[100px] lg:py-[155px] gap-8 sm:gap-12 md:gap-16 lg:gap-[40px] bg-[#F3F3F0]"
         initial="hidden"
         whileInView="visible"
         viewport={{
@@ -685,25 +685,25 @@ const ServicePage = () => {
           variants={fadeInLeft}
         >
           <motion.h3
-            className="text-2xl sm:text-3xl md:text-[34px] font-semibold leading-[1.3] md:leading-[47px] text-dark mb-6 sm:mb-8 md:mb-12 lg:mb-[65px] font-manrope"
+            className="text-2xl sm:text-3xl md:text-[34px] font-semibold leading-[1.3] md:leading-[47px] text-dark mb-6 sm:mb-8 md:mb-12 lg:mb-[40px] font-manrope"
             variants={fadeInUp}
           >
             Boost Your Online Sales — Dominate Swiggy & Zomato
           </motion.h3>
 
           <motion.p
-            className="text-base sm:text-lg md:text-[20px] font-light leading-[1.5] md:leading-[28px] text-dark mb-8 sm:mb-12 md:mb-16 lg:mb-[100px] font-manrope"
+            className="text-base sm:text-lg md:text-[20px] font-light leading-[1.5] md:leading-[28px] text-dark mb-8 sm:mb-12 md:mb-16 lg:mb-[50px] font-manrope"
             variants={fadeInUp}
           >
             Are low visibility, poor ratings, or stagnant sales holding your restaurant back? NEXRO
             empowers food businesses to break through the noise and skyrocket their online orders —
-            without relying on deep discounts or third-party gimmicks. We partner with ambitious
+            without relying on deep discounts or third-party gimmicks.<hr></hr>We partner with ambitious
             cloud kitchens, cafes, and restaurant brands to transform underperforming listings into
             high-performing revenue machines on Swiggy and Zomato.
           </motion.p>
 
           <motion.div
-            className="flex flex-col sm:flex-row justify-between gap-8 sm:gap-0 mb-8 sm:mb-12 md:mb-16 lg:mb-[120px]"
+            className="flex flex-col sm:flex-row justify-between gap-8 sm:gap-0 mb-8 sm:mb-12 md:mb-16 lg:mb-[50px]"
             variants={staggerContainer}
           >
             <motion.div
@@ -786,7 +786,7 @@ const ServicePage = () => {
           whileHover={scaleOnHover}
         >
           <motion.img
-            src="/images/img78.jpg"
+            src="/images/Frame 16.png"
             alt="Digital marketing showcase"
             className="w-full h-full object-cover"
             initial={{

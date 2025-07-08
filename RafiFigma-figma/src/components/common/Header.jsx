@@ -1,53 +1,3 @@
-// import React from 'react';
-// import { Link, useLocation } from 'react-router-dom';
-
-// const Header = () => {
-//   const location = useLocation();
-  
-//   const menuItems = [
-//     { label: 'HOME', path: '/' },
-//     { label: 'SERVICE', path: '/service' },
-//     { label: 'WORK', path: '/work' },
-//     { label: 'CONTACT', path: '/contact' }
-//   ];
-
-//   return (
-//     <div className="relative z-10 w-full bg-transparent pt-7 pb-4">
-//       <div className="flex flex-row items-center justify-between w-full max-w-[1122px] h-11 mx-auto px-4 sm:px-0">
-//         {/* Logo */}
-//         <div className="flex-shrink-0">
-//           <img 
-//             src="/images/img_headerlogo.png" 
-//             alt="NEXRO Logo" 
-//             className="w-[98px] h-11 object-contain"
-//           />
-//         </div>
-
-//         {/* Navigation Menu */}
-//         <div className="flex flex-row items-center gap-x-8 lg:gap-x-16">
-//           {menuItems.map((item, index) => (
-//             <div key={index} className="flex flex-col items-start">
-//               <Link 
-//                 to={item.path}
-//                 className={`font-satoshi font-medium text-lg leading-[25px] transition-colors duration-200 ${
-//                   location.pathname === item.path 
-//                     ? 'text-global-5' : 'text-white hover:text-global-5'
-//                 }`}
-//               >
-//                 {item.label}
-//               </Link>
-//               {location.pathname === item.path && (
-//                 <div className="w-full h-px bg-global-5 mt-1"></div>
-//               )}
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Header;
 
 import { useState } from 'react';
 import { FiMenu, FiX } from 'react-icons/fi';
@@ -68,11 +18,14 @@ const Header = () => {
       <div className="flex flex-row items-center justify-between w-full max-w-[1122px] h-11 mx-auto px-4 sm:px-6 md:px-8 lg:px-0">
         {/* Logo */}
         <div className="flex-shrink-0">
+          <Link to="/">
           <img 
             src="/images/img_headerlogo.png" 
+            
             alt="NEXRO Logo" 
             className="w-20 md:w-[98px] h-auto object-contain"
           />
+          </Link>
         </div>
 
         {/* Desktop Navigation Menu */}

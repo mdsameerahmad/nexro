@@ -30,7 +30,8 @@ export default defineConfig({
     allowedHosts: [
       'nexro-production.up.railway.app',
       'www.nexromedia.com',
-      'nexromedia.com'
+      'nexromedia.com',
+      
     ]
   }
 })

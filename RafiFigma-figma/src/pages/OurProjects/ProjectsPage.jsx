@@ -190,6 +190,21 @@ const ProjectsPage = () => {
       techStack: ["React.js", "Next.js", "MongoDB", "JavaScript", "Docker", "Redis", "Tailwind CSS"]
     },
     {
+      title: "Royal Gujrat Restaurant & Sweets",
+      url: "https://royalgujrat.com/",
+     description: "We’re thrilled to share our latest international collaboration with a passionate team based in Dubai! 🎉 Together, we’ve crafted a modern, visually rich website for Royal Gujrat Restaurant – a culinary gem bringing authentic Indian flavors to the heart of the UAE. From elegant dish showcases to seamless user experience, every detail reflects the brand’s essence. The team at Royal Gujrat was incredibly supportive and excited throughout the journey, and their satisfaction with the final result means the world to us. This project wasn’t just about building a website — it was about capturing the soul of their cuisine in a digital space. We're proud to have delivered a platform that elevates their presence and connects food lovers with an unforgettable dining experience.",
+
+      images: [
+        "/images/d1.png",
+        "/images/d2.png",
+        "/images/d3.png",
+        "/images/d4.png",
+        
+      
+      ],
+      techStack: ["React.js", "Next.js", "MongoDB", "JavaScript", "Docker", "Tailwind CSS"]
+    },
+    {
       title: "India Play",
       url: "https://www.indianply.in/",
       githubUrl: "https://github.com/mdsadiqueshakeel/India-Ply",
@@ -483,15 +498,7 @@ const ProjectSection = ({ project, index, theme, animations }) => {
           >
             <span className="mr-2">🌐</span> Live Demo
           </motion.a>
-          <motion.a 
-            href={project.githubUrl} 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="flex items-center text-black bg-gray-200 hover:bg-gray-300 transition-all px-4 py-2 rounded-lg border border-gray-200"
-            whileHover={hoverSlide}
-          >
-            <span className="mr-2">💻</span> GitHub
-          </motion.a>
+         
         </motion.div>
         
         <motion.p 

@@ -134,7 +134,7 @@ const Footer = () => {
                 to="/#"
                 className="font-satoshi text-sm sm:text-base md:text-lg leading-[25px] text-footer-2 hover:text-global-5 transition-colors duration-200"
               >
-                Terms of Use
+                Terms of Use |   Contact  : +91 9971775481
               </Link>
             </div>
 

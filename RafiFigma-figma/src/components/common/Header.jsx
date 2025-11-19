@@ -11,6 +11,8 @@ const Header = () => {
     { label: 'HOME', path: '/' },
     { label: 'SERVICE', path: '/service' },
     { label: 'WORK', path: '/work' },
+   { label: 'OUR PROJECTS', path: '/projects' }
+
   ];
 
   return (

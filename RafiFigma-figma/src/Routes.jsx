@@ -4,9 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Service from './pages/ServicePage/Service';
 import Work from './pages/WorkPage/Work';
-
-import ScrollToTop from './ScrollToTop';
-
+import ProjectsPage from "./pages/OurProjects/ProjectsPage";
 const AppRoutes = () => {
   return (
     <Router>
@@ -16,6 +14,9 @@ const AppRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/service" element={<Service />} />
         <Route path="/work" element={<Work />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+
+        {/* Add more routes here as needed */}
       </Routes>
     </Router>
   );

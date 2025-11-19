@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Service from './pages/ServicePage/Service';
 import Work from './pages/WorkPage/Work';
 import ProjectsPage from "./pages/OurProjects/ProjectsPage";
+import ScrollToTop from './ScrollToTop';
 const AppRoutes = () => {
   return (
     <Router>
